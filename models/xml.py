@@ -11,7 +11,7 @@ class xml:
         return linhas
 
     def salva_xml(linha):
-        arquivo = open("arquivos/"+str(linha[0])+".xml", 'wb')
+        arquivo = open("downloads/"+str(linha[0])+".xml", 'wb')
         arquivo.write(str(linha[1]).encode())
         arquivo.close()
         return
